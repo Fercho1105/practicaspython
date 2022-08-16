@@ -5,7 +5,7 @@ tipo_nombre=nombre.isalpha()
 
 
 while numeDeCaracteres_Nombre ==0 or tipo_nombre == False:
-    print("Error, no deje ninguna casilla vacia o ponga algun valor que no sea letras")
+    print("Error!!! No deje ninguna casilla vacia o inserte el valor correcto")
     nombre=input("Ingrese su nombre: ")
     numeDeCaracteres_Nombre=len(nombre)
     tipo_nombre=nombre.isalpha()
@@ -19,7 +19,7 @@ tipo_apellidoPaterno=apellido_paterno.isalpha()
 
 
 while Caracteres_apellidoPaterno ==0 or tipo_apellidoPaterno == False:
-    print("Error, no deje ninguna casilla vacia o ponga algun valor que no sea letras")
+    print("Error!!! No deje ninguna casilla vacia o inserte el valor correcto")
     apellido_paterno=input("Ingrese su apellido paterno: ")
     Caracteres_apellidoPaterno=len(apellido_paterno)
     tipo_apellidoPaterno=apellido_paterno.isalpha()
@@ -33,7 +33,7 @@ Caracteres_apellidoMaterno=len(apellido_materno)
 tipo_apellidoMaterno=apellido_materno.isalpha()
 
 while Caracteres_apellidoMaterno ==0 or tipo_apellidoMaterno == False:
-    print("Error, no deje ninguna casilla vacia o ponga algun valor que no sea letras")
+    print("Error!!! No deje ninguna casilla vacia o inserte el valor correcto")
     apellido_materno=input("Ingrese su apellido materno: ")
     Caracteres_apellidoMaterno=len(apellido_materno)
     tipo_apellidoMaterno=apellido_materno.isalpha()
@@ -49,7 +49,7 @@ tipo_edad=edad.isdigit()
 
 
 while Caracteres_edad ==0 or tipo_edad == False:
-    print("Error, no deje ninguna casilla vacia o ponga un numero")
+    print("Error!!! No deje ninguna casilla vacia o inserte el valor correcto")
     edad=(input("¿Cuál es du edad? "))
     Caracteres_edad=len(edad)
     tipo_edad=edad.isdecimal()
@@ -62,7 +62,7 @@ Caracteres_peso=len(peso)
 tipo_peso=peso.isdigit()
 
 while Caracteres_peso ==0 or tipo_peso == False:
-    print("Error, no deje ninguna casilla vacia o ponga un numero")
+    print("Error!!! No deje ninguna casilla vacia o insrte el valor correcto")
     peso=input("Ingrese su peso en kilogramos : ")
     Caracteres_peso=len(peso)
     tipo_peso=peso.isdecimal()
@@ -78,7 +78,7 @@ Caracteres_estatura=len(estatura)
 
 
 while Caracteres_estatura ==0:
-    print("Error, no deje ninguna casilla vacia o ponga un numero")
+    print("Error!!! No deje ninguna casilla vacia o insrte el valor correcto")
     estatura=input("Ingrese su estatura en metros: ")
     Caracteres_estatura=len(estatura)
 
