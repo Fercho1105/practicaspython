@@ -1,6 +1,6 @@
 # #   //******LISTAS *****//
 """  "FOR" en listas  """
-# mix = [0,1.0,"dos",3+4j]
+# mix = [0,1.0,"dos",3+4j] #Siempre va entre corchetes
 
 # print(len(mix))  #Cantidad de elemnetos en la lista
 
