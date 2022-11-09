@@ -5,7 +5,7 @@ import requests
 latitud = 20.4290299
 longitud = -99.3563108
 
-api_key = "43a53835a2070e569ec05a14c8b1f2fb"
+api_key = ""
 
 
 url_destino = f"https://api.openweathermap.org/data/2.5/weather?lat={latitud}&lon={longitud}&appid={api_key}"
